@@ -83,13 +83,21 @@ function App() {
         <div className="mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
-              <svg
-                className="w-8 h-8 text-yellow-400 dark:text-blue-300"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="..." />
-              </svg>
+            <svg
+            className="w-8 h-8 text-yellow-400 dark:text-blue-300"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M6.05 17.95l-1.414 1.414M17.95 17.95l-1.414-1.414M6.05 6.05L4.636 7.464M12 8a4 4 0 100 8 4 4 0 000-8z"
+            />
+          </svg>
+          
               <span className="text-white dark:text-gray-200 font-bold text-lg">
                 WeatherApp
               </span>
